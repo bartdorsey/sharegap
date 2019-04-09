@@ -18,12 +18,10 @@ class ShareViewController: NSViewController {
     override func loadView() {
         super.loadView()
     
-        // Insert code here to customize the view
         let item = self.extensionContext!.inputItems[0] as! NSExtensionItem
         if let attachments = item.attachments {
             for attachment in attachments {
                 if (attachment.hasItemConformingToTypeIdentifier("public.url")) {
-                    NSLog("Attachments = %@", attachments as NSArray)
                     attachment.loadItem(forTypeIdentifier: "public.url", options: nil) { data, error in
                         if error == nil {
                             let url = data as! NSURL

@@ -69,6 +69,11 @@ Gw
                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
+                <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6y6-Hn-s47">
+                    <rect key="frame" x="135" y="40" width="118" height="118"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" id="yA0-fk-cq3"/>
+                </imageView>
             </subviews>
             <constraints>
                 <constraint firstItem="1uM-r7-H1c" firstAttribute="leading" secondItem="NVE-vN-dkz" secondAttribute="trailing" constant="8" id="1UO-J1-LbJ"/>

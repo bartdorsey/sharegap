@@ -7,6 +7,7 @@
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="ShareViewController" customModule="copytoclipboard" customModuleProvider="target">
             <connections>
+                <outlet property="image" destination="KJc-Ku-vO4" id="ao3-h6-ulN"/>
                 <outlet property="text" destination="WjT-4n-SH7" id="eGn-sA-rZq"/>
                 <outlet property="view" destination="1" id="2"/>
             </connections>
@@ -69,6 +70,16 @@ Gw
                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
+                <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bUp-AC-SI4">
+                    <rect key="frame" x="141" y="49" width="117" height="125"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" id="XFA-8g-SMx"/>
+                </imageView>
+                <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KJc-Ku-vO4">
+                    <rect key="frame" x="141" y="48" width="117" height="125"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" id="0HS-2Y-Ed2"/>
+                </imageView>
             </subviews>
             <constraints>
                 <constraint firstItem="1uM-r7-H1c" firstAttribute="leading" secondItem="NVE-vN-dkz" secondAttribute="trailing" constant="8" id="1UO-J1-LbJ"/>

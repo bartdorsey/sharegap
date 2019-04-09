@@ -16,8 +16,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5F176DA6225BF7A100D41AA3"
-               BuildableName = "copytoclipboard.appex"
-               BlueprintName = "copytoclipboard"
+               BuildableName = "Copy To Clipboard.appex"
+               BlueprintName = "Copy To Clipboard"
                ReferencedContainer = "container:sharegap.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -48,8 +48,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5F176DA6225BF7A100D41AA3"
-            BuildableName = "copytoclipboard.appex"
-            BlueprintName = "copytoclipboard"
+            BuildableName = "Copy To Clipboard.appex"
+            BlueprintName = "Copy To Clipboard"
             ReferencedContainer = "container:sharegap.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -69,8 +69,8 @@
       launchAutomaticallySubstyle = "2">
       <RemoteRunnable
          runnableDebuggingMode = "0"
-         BundleIdentifier = "com.apple.news"
-         RemotePath = "/Applications/News.app">
+         BundleIdentifier = "com.apple.Photos"
+         RemotePath = "/Applications/Photos.app">
       </RemoteRunnable>
       <MacroExpansion>
          <BuildableReference

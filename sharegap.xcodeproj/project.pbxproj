@@ -16,11 +16,12 @@
 		5F176DAA225BF7A100D41AA3 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 5F176DA9225BF7A100D41AA3 /* icon.icns */; };
 		5F176DAC225BF7A100D41AA3 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F176DAB225BF7A100D41AA3 /* ShareViewController.swift */; };
 		5F176DAF225BF7A100D41AA3 /* ShareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F176DAD225BF7A100D41AA3 /* ShareViewController.xib */; };
-		5F176DB4225BF7A100D41AA3 /* copytoclipboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5F176DA7225BF7A100D41AA3 /* copytoclipboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5F176DB4225BF7A100D41AA3 /* Copy To Clipboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5F176DA7225BF7A100D41AA3 /* Copy To Clipboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		5F176DC0225C026900D41AA3 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 5F176DBF225C026900D41AA3 /* icon.icns */; };
 		5F176DC2225C026900D41AA3 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F176DC1225C026900D41AA3 /* ShareViewController.swift */; };
 		5F176DC5225C026900D41AA3 /* ShareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F176DC3225C026900D41AA3 /* ShareViewController.xib */; };
 		5F176DCA225C026900D41AA3 /* Open In Safari.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5F176DBD225C026900D41AA3 /* Open In Safari.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5F7B99A2225D1E5500D7B781 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5F7B99A1225D1E5500D7B781 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,7 +62,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				5F176DB4225BF7A100D41AA3 /* copytoclipboard.appex in Embed App Extensions */,
+				5F176DB4225BF7A100D41AA3 /* Copy To Clipboard.appex in Embed App Extensions */,
 				5F176DCA225C026900D41AA3 /* Open In Safari.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
@@ -83,7 +84,7 @@
 		5F176D91225BF74000D41AA3 /* sharegapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sharegapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F176D95225BF74000D41AA3 /* sharegapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sharegapUITests.swift; sourceTree = "<group>"; };
 		5F176D97225BF74000D41AA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5F176DA7225BF7A100D41AA3 /* copytoclipboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = copytoclipboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F176DA7225BF7A100D41AA3 /* Copy To Clipboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Copy To Clipboard.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F176DA9225BF7A100D41AA3 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
 		5F176DAB225BF7A100D41AA3 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
 		5F176DAE225BF7A100D41AA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ShareViewController.xib; sourceTree = "<group>"; };
@@ -95,6 +96,7 @@
 		5F176DC4225C026900D41AA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ShareViewController.xib; sourceTree = "<group>"; };
 		5F176DC6225C026900D41AA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F176DC7225C026900D41AA3 /* Open_In_Safari.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Open_In_Safari.entitlements; sourceTree = "<group>"; };
+		5F7B99A1225D1E5500D7B781 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,9 +144,10 @@
 				5F176D76225BF73E00D41AA3 /* sharegap */,
 				5F176D89225BF74000D41AA3 /* sharegapTests */,
 				5F176D94225BF74000D41AA3 /* sharegapUITests */,
-				5F176DA8225BF7A100D41AA3 /* copytoclipboard */,
+				5F176DA8225BF7A100D41AA3 /* Copy To Clipboard */,
 				5F176DBE225C026900D41AA3 /* Open In Safari */,
 				5F176D75225BF73E00D41AA3 /* Products */,
+				5F7B99A1225D1E5500D7B781 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -154,7 +157,7 @@
 				5F176D74225BF73E00D41AA3 /* sharegap.app */,
 				5F176D86225BF74000D41AA3 /* sharegapTests.xctest */,
 				5F176D91225BF74000D41AA3 /* sharegapUITests.xctest */,
-				5F176DA7225BF7A100D41AA3 /* copytoclipboard.appex */,
+				5F176DA7225BF7A100D41AA3 /* Copy To Clipboard.appex */,
 				5F176DBD225C026900D41AA3 /* Open In Safari.appex */,
 			);
 			name = Products;
@@ -191,7 +194,7 @@
 			path = sharegapUITests;
 			sourceTree = "<group>";
 		};
-		5F176DA8225BF7A100D41AA3 /* copytoclipboard */ = {
+		5F176DA8225BF7A100D41AA3 /* Copy To Clipboard */ = {
 			isa = PBXGroup;
 			children = (
 				5F176DA9225BF7A100D41AA3 /* icon.icns */,
@@ -200,7 +203,7 @@
 				5F176DB0225BF7A100D41AA3 /* Info.plist */,
 				5F176DB1225BF7A100D41AA3 /* copytoclipboard.entitlements */,
 			);
-			path = copytoclipboard;
+			path = "Copy To Clipboard";
 			sourceTree = "<group>";
 		};
 		5F176DBE225C026900D41AA3 /* Open In Safari */ = {
@@ -274,9 +277,9 @@
 			productReference = 5F176D91225BF74000D41AA3 /* sharegapUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		5F176DA6225BF7A100D41AA3 /* copytoclipboard */ = {
+		5F176DA6225BF7A100D41AA3 /* Copy To Clipboard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5F176DB5225BF7A100D41AA3 /* Build configuration list for PBXNativeTarget "copytoclipboard" */;
+			buildConfigurationList = 5F176DB5225BF7A100D41AA3 /* Build configuration list for PBXNativeTarget "Copy To Clipboard" */;
 			buildPhases = (
 				5F176DA3225BF7A100D41AA3 /* Sources */,
 				5F176DA4225BF7A100D41AA3 /* Frameworks */,
@@ -286,9 +289,9 @@
 			);
 			dependencies = (
 			);
-			name = copytoclipboard;
+			name = "Copy To Clipboard";
 			productName = copytoclipboard;
-			productReference = 5F176DA7225BF7A100D41AA3 /* copytoclipboard.appex */;
+			productReference = 5F176DA7225BF7A100D41AA3 /* Copy To Clipboard.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 		5F176DBC225C026900D41AA3 /* Open In Safari */ = {
@@ -353,7 +356,7 @@
 				5F176D73225BF73E00D41AA3 /* sharegap */,
 				5F176D85225BF74000D41AA3 /* sharegapTests */,
 				5F176D90225BF74000D41AA3 /* sharegapUITests */,
-				5F176DA6225BF7A100D41AA3 /* copytoclipboard */,
+				5F176DA6225BF7A100D41AA3 /* Copy To Clipboard */,
 				5F176DBC225C026900D41AA3 /* Open In Safari */,
 			);
 		};
@@ -364,6 +367,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F7B99A2225D1E5500D7B781 /* README.md in Resources */,
 				5F176D7C225BF74000D41AA3 /* Assets.xcassets in Resources */,
 				5F176D7F225BF74000D41AA3 /* Main.storyboard in Resources */,
 			);
@@ -460,7 +464,7 @@
 		};
 		5F176DB3225BF7A100D41AA3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5F176DA6225BF7A100D41AA3 /* copytoclipboard */;
+			target = 5F176DA6225BF7A100D41AA3 /* Copy To Clipboard */;
 			targetProxy = 5F176DB2225BF7A100D41AA3 /* PBXContainerItemProxy */;
 		};
 		5F176DC9225C026900D41AA3 /* PBXTargetDependency */ = {
@@ -553,6 +557,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "Share Gap";
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -607,6 +612,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "Share Gap";
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -738,19 +744,19 @@
 		5F176DB6225BF7A100D41AA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = copytoclipboard/copytoclipboard.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "Copy To Clipboard/copytoclipboard.entitlements";
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 98XLGRN49C;
-				INFOPLIST_FILE = copytoclipboard/Info.plist;
+				INFOPLIST_FILE = "Copy To Clipboard/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.bartdorsey.sharegap.copytoclipboard;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Copy To Clipboard";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -759,19 +765,19 @@
 		5F176DB7225BF7A100D41AA3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = copytoclipboard/copytoclipboard.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "Copy To Clipboard/copytoclipboard.entitlements";
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 98XLGRN49C;
-				INFOPLIST_FILE = copytoclipboard/Info.plist;
+				INFOPLIST_FILE = "Copy To Clipboard/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.bartdorsey.sharegap.copytoclipboard;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Copy To Clipboard";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -858,7 +864,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5F176DB5225BF7A100D41AA3 /* Build configuration list for PBXNativeTarget "copytoclipboard" */ = {
+		5F176DB5225BF7A100D41AA3 /* Build configuration list for PBXNativeTarget "Copy To Clipboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5F176DB6225BF7A100D41AA3 /* Debug */,
