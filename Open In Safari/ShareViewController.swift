@@ -24,12 +24,10 @@ class ShareViewController: NSViewController {
                 if (attachment.hasItemConformingToTypeIdentifier("public.url")) {
                     attachment.loadItem(forTypeIdentifier: "public.url", options: nil) { data, error in
                         if error == nil {
-                            let url = data as! NSURL
-                            let urlString = url.absoluteString
-                            NSLog("URL = %@", url)
-                            if urlString != nil {
-                                self.URL.stringValue = urlString!
-                            }
+                            let url = data as! URL
+                            let parsedURL = self.parseAppleNewsURL(url)
+                            NSWorkspace.shared.open(parsedURL)
+                            NSLog("URL opened in Safari: %@", url.absoluteString)
                         }
                     }
                 }
@@ -37,20 +35,15 @@ class ShareViewController: NSViewController {
         } else {
             NSLog("No Attachments")
         }
-    }
-
-    @IBAction func send(_ sender: AnyObject?) {
-        let outputItem = NSExtensionItem()
-        let url = NSURL(fileURLWithPath: self.URL.stringValue)
-        NSWorkspace.shared.open(url as URL)
-    
-        let outputItems = [outputItem]
+        let outputItems = [item]
         self.extensionContext!.completeRequest(returningItems: outputItems, completionHandler: nil)
-}
-
-    @IBAction func cancel(_ sender: AnyObject?) {
-        let cancelError = NSError(domain: NSCocoaErrorDomain, code: NSUserCancelledError, userInfo: nil)
-        self.extensionContext!.cancelRequest(withError: cancelError)
     }
 
+    func parseAppleNewsURL(_ url: URL) -> URL {
+        return url
+    }
+    
+    override func viewDidLoad() {
+        self.extensionContext?.completeRequest(returningItems: [], completionHandler: nil)
+    }
 }

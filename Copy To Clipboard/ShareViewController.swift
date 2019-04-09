@@ -62,19 +62,7 @@ class ShareViewController: NSViewController {
         }
     }
 
-    @IBAction func send(_ sender: AnyObject?) {
-        let outputItem = NSExtensionItem()
-        NSLog("outputItem = %@", outputItem);
-        let outputItems = [outputItem]
-        self.extensionContext!.completeRequest(returningItems: outputItems, completionHandler: nil)
-}
-
-    @IBAction func cancel(_ sender: AnyObject?) {
-        let cancelError = NSError(domain: NSCocoaErrorDomain, code: NSUserCancelledError, userInfo: nil)
-        self.extensionContext!.cancelRequest(withError: cancelError)
-    }
-
     override func viewDidLoad() {
-        extensionContext?.completeRequest(returningItems: [], completionHandler: nil)
+        self.extensionContext?.completeRequest(returningItems: [], completionHandler: nil)
     }
 }
