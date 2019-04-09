@@ -17,8 +17,5 @@ This is alpha quality at best, once this reaches 1.0 status I'll be providing pr
 ## TODO:
 
 * Un-shorten Apple News links.
-* Support Images.
-* Make extension aware of what's being shared to suppress it from the list.
 * Add App Icon and other Icons.
-* Share UI Improvements
 * Better Error handling.
