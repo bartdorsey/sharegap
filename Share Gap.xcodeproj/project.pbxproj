@@ -926,6 +926,7 @@
 		5F176DB6225BF7A100D41AA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = ClipboardIcon;
 				CODE_SIGN_ENTITLEMENTS = "Copy To Clipboard/copytoclipboard.entitlements";
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
@@ -947,6 +948,7 @@
 		5F176DB7225BF7A100D41AA3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = ClipboardIcon;
 				CODE_SIGN_ENTITLEMENTS = "Copy To Clipboard/copytoclipboard.entitlements";
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
@@ -968,6 +970,7 @@
 		5F176DCC225C026900D41AA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = SafariIcon;
 				CODE_SIGN_ENTITLEMENTS = "Open In Safari/Open_In_Safari.entitlements";
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
@@ -989,6 +992,7 @@
 		5F176DCD225C026900D41AA3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = SafariIcon;
 				CODE_SIGN_ENTITLEMENTS = "Open In Safari/Open_In_Safari.entitlements";
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
@@ -1056,6 +1060,7 @@
 		C9B0F1A822FA57F400455316 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = FacebookIcon;
 				CODE_SIGN_ENTITLEMENTS = "Share on Facebook/Share_on_Facebook.entitlements";
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
@@ -1078,6 +1083,7 @@
 		C9B0F1A922FA57F400455316 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = FacebookIcon;
 				CODE_SIGN_ENTITLEMENTS = "Share on Facebook/Share_on_Facebook.entitlements";
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
