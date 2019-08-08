@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1020"
-   version = "1.3">
+   LastUpgradeVersion = "1030"
+   wasCreatedForAppExtension = "YES"
+   version = "2.0">
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
@@ -14,10 +15,24 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C98B1B9722FC5A5100D1CFA7"
+               BuildableName = "Open in Terminal.appex"
+               BlueprintName = "Open in Terminal"
+               ReferencedContainer = "container:Share Gap.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "5F176D73225BF73E00D41AA3"
-               BuildableName = "sharegap.app"
-               BlueprintName = "sharegap"
-               ReferencedContainer = "container:sharegap.xcodeproj">
+               BuildableName = "Share Gap.app"
+               BlueprintName = "Share Gap"
+               ReferencedContainer = "container:Share Gap.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,34 +43,14 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5F176D85225BF74000D41AA3"
-               BuildableName = "sharegapTests.xctest"
-               BlueprintName = "sharegapTests"
-               ReferencedContainer = "container:sharegap.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5F176D90225BF74000D41AA3"
-               BuildableName = "sharegapUITests.xctest"
-               BlueprintName = "sharegapUITests"
-               ReferencedContainer = "container:sharegap.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5F176D73225BF73E00D41AA3"
-            BuildableName = "sharegap.app"
-            BlueprintName = "sharegap"
-            ReferencedContainer = "container:sharegap.xcodeproj">
+            BlueprintIdentifier = "C98B1B9722FC5A5100D1CFA7"
+            BuildableName = "Open in Terminal.appex"
+            BlueprintName = "Open in Terminal"
+            ReferencedContainer = "container:Share Gap.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -63,22 +58,23 @@
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
-      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
-      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      selectedDebuggerIdentifier = ""
+      selectedLauncherIdentifier = "Xcode.IDEFoundation.Launcher.PosixSpawn"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
-      allowLocationSimulation = "YES">
+      allowLocationSimulation = "YES"
+      launchAutomaticallySubstyle = "2">
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5F176D73225BF73E00D41AA3"
-            BuildableName = "sharegap.app"
-            BlueprintName = "sharegap"
-            ReferencedContainer = "container:sharegap.xcodeproj">
+            BuildableName = "Share Gap.app"
+            BlueprintName = "Share Gap"
+            ReferencedContainer = "container:Share Gap.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -89,15 +85,16 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
-      debugDocumentVersioning = "YES">
+      debugDocumentVersioning = "YES"
+      launchAutomaticallySubstyle = "2">
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5F176D73225BF73E00D41AA3"
-            BuildableName = "sharegap.app"
-            BlueprintName = "sharegap"
-            ReferencedContainer = "container:sharegap.xcodeproj">
+            BuildableName = "Share Gap.app"
+            BlueprintName = "Share Gap"
+            ReferencedContainer = "container:Share Gap.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

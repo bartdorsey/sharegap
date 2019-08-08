@@ -26,6 +26,10 @@
 		C95C801322FA47EE00A52B3B /* ShareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C95C801122FA47EE00A52B3B /* ShareViewController.xib */; };
 		C95C801822FA47EE00A52B3B /* Share on Twitter.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C95C800B22FA47EE00A52B3B /* Share on Twitter.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		C95C801F22FA514F00A52B3B /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = C95C801E22FA514F00A52B3B /* icon.icns */; };
+		C98B1B9B22FC5A5100D1CFA7 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = C98B1B9A22FC5A5100D1CFA7 /* icon.icns */; };
+		C98B1B9D22FC5A5100D1CFA7 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98B1B9C22FC5A5100D1CFA7 /* ShareViewController.swift */; };
+		C98B1BA022FC5A5100D1CFA7 /* ShareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C98B1B9E22FC5A5100D1CFA7 /* ShareViewController.xib */; };
+		C98B1BA522FC5A5100D1CFA7 /* Open in Terminal.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C98B1B9822FC5A5100D1CFA7 /* Open in Terminal.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		C9B0F19D22FA57F400455316 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = C9B0F19C22FA57F400455316 /* icon.icns */; };
 		C9B0F19F22FA57F400455316 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B0F19E22FA57F400455316 /* ShareViewController.swift */; };
 		C9B0F1A222FA57F400455316 /* ShareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9B0F1A022FA57F400455316 /* ShareViewController.xib */; };
@@ -68,6 +72,13 @@
 			remoteGlobalIDString = C95C800A22FA47EE00A52B3B;
 			remoteInfo = "Share on Twitter";
 		};
+		C98B1BA322FC5A5100D1CFA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F176D6C225BF73E00D41AA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C98B1B9722FC5A5100D1CFA7;
+			remoteInfo = "Open in Terminal";
+		};
 		C9B0F1A522FA57F400455316 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5F176D6C225BF73E00D41AA3 /* Project object */;
@@ -87,6 +98,7 @@
 				5F176DB4225BF7A100D41AA3 /* Copy To Clipboard.appex in Embed App Extensions */,
 				C9B0F1A722FA57F400455316 /* Share on Facebook.appex in Embed App Extensions */,
 				5F176DCA225C026900D41AA3 /* Open In Safari.appex in Embed App Extensions */,
+				C98B1BA522FC5A5100D1CFA7 /* Open in Terminal.appex in Embed App Extensions */,
 				C95C801822FA47EE00A52B3B /* Share on Twitter.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
@@ -127,6 +139,12 @@
 		C95C801422FA47EE00A52B3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C95C801522FA47EE00A52B3B /* Share_on_Twitter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Share_on_Twitter.entitlements; sourceTree = "<group>"; };
 		C95C801E22FA514F00A52B3B /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+		C98B1B9822FC5A5100D1CFA7 /* Open in Terminal.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Open in Terminal.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C98B1B9A22FC5A5100D1CFA7 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+		C98B1B9C22FC5A5100D1CFA7 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		C98B1B9F22FC5A5100D1CFA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ShareViewController.xib; sourceTree = "<group>"; };
+		C98B1BA122FC5A5100D1CFA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C98B1BA222FC5A5100D1CFA7 /* Open_in_Terminal.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Open_in_Terminal.entitlements; sourceTree = "<group>"; };
 		C9B0F19A22FA57F400455316 /* Share on Facebook.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Share on Facebook.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9B0F19C22FA57F400455316 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
 		C9B0F19E22FA57F400455316 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
@@ -178,6 +196,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C98B1B9522FC5A5100D1CFA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C9B0F19722FA57F400455316 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -198,6 +223,7 @@
 				5F176DBE225C026900D41AA3 /* Open In Safari */,
 				C95C800C22FA47EE00A52B3B /* Share on Twitter */,
 				C9B0F19B22FA57F400455316 /* Share on Facebook */,
+				C98B1B9922FC5A5100D1CFA7 /* Open in Terminal */,
 				5F176D75225BF73E00D41AA3 /* Products */,
 				5F7B99A1225D1E5500D7B781 /* README.md */,
 			);
@@ -213,6 +239,7 @@
 				5F176DBD225C026900D41AA3 /* Open In Safari.appex */,
 				C95C800B22FA47EE00A52B3B /* Share on Twitter.appex */,
 				C9B0F19A22FA57F400455316 /* Share on Facebook.appex */,
+				C98B1B9822FC5A5100D1CFA7 /* Open in Terminal.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -284,6 +311,18 @@
 			path = "Share on Twitter";
 			sourceTree = "<group>";
 		};
+		C98B1B9922FC5A5100D1CFA7 /* Open in Terminal */ = {
+			isa = PBXGroup;
+			children = (
+				C98B1B9A22FC5A5100D1CFA7 /* icon.icns */,
+				C98B1B9C22FC5A5100D1CFA7 /* ShareViewController.swift */,
+				C98B1B9E22FC5A5100D1CFA7 /* ShareViewController.xib */,
+				C98B1BA122FC5A5100D1CFA7 /* Info.plist */,
+				C98B1BA222FC5A5100D1CFA7 /* Open_in_Terminal.entitlements */,
+			);
+			path = "Open in Terminal";
+			sourceTree = "<group>";
+		};
 		C9B0F19B22FA57F400455316 /* Share on Facebook */ = {
 			isa = PBXGroup;
 			children = (
@@ -315,6 +354,7 @@
 				5F176DC9225C026900D41AA3 /* PBXTargetDependency */,
 				C95C801722FA47EE00A52B3B /* PBXTargetDependency */,
 				C9B0F1A622FA57F400455316 /* PBXTargetDependency */,
+				C98B1BA422FC5A5100D1CFA7 /* PBXTargetDependency */,
 			);
 			name = "Share Gap";
 			productName = sharegap;
@@ -408,6 +448,23 @@
 			productReference = C95C800B22FA47EE00A52B3B /* Share on Twitter.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
+		C98B1B9722FC5A5100D1CFA7 /* Open in Terminal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C98B1BA822FC5A5100D1CFA7 /* Build configuration list for PBXNativeTarget "Open in Terminal" */;
+			buildPhases = (
+				C98B1B9422FC5A5100D1CFA7 /* Sources */,
+				C98B1B9522FC5A5100D1CFA7 /* Frameworks */,
+				C98B1B9622FC5A5100D1CFA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Open in Terminal";
+			productName = "Open in Terminal";
+			productReference = C98B1B9822FC5A5100D1CFA7 /* Open in Terminal.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		C9B0F19922FA57F400455316 /* Share on Facebook */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C9B0F1AA22FA57F400455316 /* Build configuration list for PBXNativeTarget "Share on Facebook" */;
@@ -455,6 +512,9 @@
 					C95C800A22FA47EE00A52B3B = {
 						CreatedOnToolsVersion = 10.3;
 					};
+					C98B1B9722FC5A5100D1CFA7 = {
+						CreatedOnToolsVersion = 10.3;
+					};
 					C9B0F19922FA57F400455316 = {
 						CreatedOnToolsVersion = 10.3;
 					};
@@ -480,6 +540,7 @@
 				5F176DBC225C026900D41AA3 /* Open In Safari */,
 				C95C800A22FA47EE00A52B3B /* Share on Twitter */,
 				C9B0F19922FA57F400455316 /* Share on Facebook */,
+				C98B1B9722FC5A5100D1CFA7 /* Open in Terminal */,
 			);
 		};
 /* End PBXProject section */
@@ -533,6 +594,15 @@
 			files = (
 				C95C801322FA47EE00A52B3B /* ShareViewController.xib in Resources */,
 				C95C801F22FA514F00A52B3B /* icon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C98B1B9622FC5A5100D1CFA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C98B1BA022FC5A5100D1CFA7 /* ShareViewController.xib in Resources */,
+				C98B1B9B22FC5A5100D1CFA7 /* icon.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -597,6 +667,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C98B1B9422FC5A5100D1CFA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C98B1B9D22FC5A5100D1CFA7 /* ShareViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C9B0F19622FA57F400455316 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -632,6 +710,11 @@
 			isa = PBXTargetDependency;
 			target = C95C800A22FA47EE00A52B3B /* Share on Twitter */;
 			targetProxy = C95C801622FA47EE00A52B3B /* PBXContainerItemProxy */;
+		};
+		C98B1BA422FC5A5100D1CFA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C98B1B9722FC5A5100D1CFA7 /* Open in Terminal */;
+			targetProxy = C98B1BA322FC5A5100D1CFA7 /* PBXContainerItemProxy */;
 		};
 		C9B0F1A622FA57F400455316 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -669,6 +752,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				C95C801222FA47EE00A52B3B /* Base */,
+			);
+			name = ShareViewController.xib;
+			sourceTree = "<group>";
+		};
+		C98B1B9E22FC5A5100D1CFA7 /* ShareViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C98B1B9F22FC5A5100D1CFA7 /* Base */,
 			);
 			name = ShareViewController.xib;
 			sourceTree = "<group>";
@@ -1055,6 +1146,48 @@
 			};
 			name = Release;
 		};
+		C98B1BA622FC5A5100D1CFA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Open in Terminal/Open_in_Terminal.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Q3Z639YB49;
+				INFOPLIST_FILE = "Open in Terminal/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bartdorsey.sharegap.Open-in-Terminal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C98B1BA722FC5A5100D1CFA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Open in Terminal/Open_in_Terminal.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Q3Z639YB49;
+				INFOPLIST_FILE = "Open in Terminal/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bartdorsey.sharegap.Open-in-Terminal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		C9B0F1A822FA57F400455316 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1161,6 +1294,15 @@
 			buildConfigurations = (
 				C95C801A22FA47EE00A52B3B /* Debug */,
 				C95C801B22FA47EE00A52B3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C98B1BA822FC5A5100D1CFA7 /* Build configuration list for PBXNativeTarget "Open in Terminal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C98B1BA622FC5A5100D1CFA7 /* Debug */,
+				C98B1BA722FC5A5100D1CFA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1020"
+   LastUpgradeVersion = "1030"
    wasCreatedForAppExtension = "YES"
    version = "2.0">
    <BuildAction
@@ -15,10 +15,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5F176DA6225BF7A100D41AA3"
-               BuildableName = "Copy To Clipboard.appex"
-               BlueprintName = "Copy To Clipboard"
-               ReferencedContainer = "container:sharegap.xcodeproj">
+               BlueprintIdentifier = "5F176DBC225C026900D41AA3"
+               BuildableName = "Open In Safari.appex"
+               BlueprintName = "Open In Safari"
+               ReferencedContainer = "container:Share Gap.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -30,9 +30,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5F176D73225BF73E00D41AA3"
-               BuildableName = "sharegap.app"
-               BlueprintName = "sharegap"
-               ReferencedContainer = "container:sharegap.xcodeproj">
+               BuildableName = "Share Gap.app"
+               BlueprintName = "Share Gap"
+               ReferencedContainer = "container:Share Gap.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,10 +47,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5F176DA6225BF7A100D41AA3"
-            BuildableName = "Copy To Clipboard.appex"
-            BlueprintName = "Copy To Clipboard"
-            ReferencedContainer = "container:sharegap.xcodeproj">
+            BlueprintIdentifier = "5F176DBC225C026900D41AA3"
+            BuildableName = "Open In Safari.appex"
+            BlueprintName = "Open In Safari"
+            ReferencedContainer = "container:Share Gap.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -67,20 +67,16 @@
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES"
       launchAutomaticallySubstyle = "2">
-      <RemoteRunnable
-         runnableDebuggingMode = "0"
-         BundleIdentifier = "com.apple.Photos"
-         RemotePath = "/Applications/Photos.app">
-      </RemoteRunnable>
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5F176D73225BF73E00D41AA3"
-            BuildableName = "sharegap.app"
-            BlueprintName = "sharegap"
-            ReferencedContainer = "container:sharegap.xcodeproj">
+            BuildableName = "Share Gap.app"
+            BlueprintName = "Share Gap"
+            ReferencedContainer = "container:Share Gap.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -96,9 +92,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5F176D73225BF73E00D41AA3"
-            BuildableName = "sharegap.app"
-            BlueprintName = "sharegap"
-            ReferencedContainer = "container:sharegap.xcodeproj">
+            BuildableName = "Share Gap.app"
+            BlueprintName = "Share Gap"
+            ReferencedContainer = "container:Share Gap.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
