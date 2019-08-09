@@ -131,10 +131,17 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="O7H-Fu-LBJ">
-                                <rect key="frame" x="48" y="126" width="386" height="17"/>
+                                <rect key="frame" x="47" y="20" width="389" height="225"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <textFieldCell key="cell" lineBreakMode="clipping" alignment="center" title="Activate new items using the &quot;More...&quot; item on the Share Menu" id="hQ7-Qt-1sQ">
+                                <textFieldCell key="cell" lineBreakMode="clipping" alignment="left" id="hQ7-Qt-1sQ">
                                     <font key="font" usesAppearanceFont="YES"/>
+                                    <string key="title">Activate new items using: 
+
+1. Share Menu &gt; "More..."
+
+or
+
+2. System Preferences &gt; Extensions</string>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>

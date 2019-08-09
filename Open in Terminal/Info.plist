@@ -33,7 +33,7 @@
     extensionItems, $extensionItem,
     SUBQUERY (
         $extensionItem.attachments, $attachment,
-        ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO &quot;public.directory&quot;
+        (ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO &quot;public.directory&quot; || ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO &quot;public.file-url&quot;)
     ).@count &gt;= 1
 ).@count &gt; 0</string>
 		</dict>

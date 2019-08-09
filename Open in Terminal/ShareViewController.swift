@@ -9,7 +9,7 @@
 import Cocoa
 
 class ShareViewController: NSViewController {
-	@IBOutlet weak var URL: NSTextField!
+//	@IBOutlet weak var URL: NSTextField!
 	
 	override var nibName: NSNib.Name? {
 		return NSNib.Name("ShareViewController")
@@ -20,13 +20,21 @@ class ShareViewController: NSViewController {
 		
 		let item = self.extensionContext!.inputItems[0] as! NSExtensionItem
 		if let attachments = item.attachments {
+			NSLog("Attachments = %@", attachments as NSArray)
+
 			for attachment in attachments {
 				if (attachment.hasItemConformingToTypeIdentifier("public.file-url")) {
 					attachment.loadItem(forTypeIdentifier: "public.file-url", options: nil) { data, error in
 						if error == nil {
-							let fileURL = data as! URL
+
+							var fileURL = data as! URL
+
+							if (fileURL.absoluteString.last! != "/") {
+								fileURL = fileURL.deletingLastPathComponent()
+							}
+
 							_ = self.shell("open -a Terminal \"\(fileURL)\"")
-							NSLog("File URL opened in Safari: %@", fileURL.absoluteString)
+							NSLog("URL opened in Terminal: open -a Terminal \"\(fileURL.absoluteString)\"")
 						}
 					}
 				}
